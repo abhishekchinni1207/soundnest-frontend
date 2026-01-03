@@ -52,7 +52,7 @@ export default function PlaylistDetail() {
   }
 
   return (
-    <div className="p-6">
+    <div className="p-6  dark:text-white dark:bg-black min-h-screen">
       {/* 🔙 Back */}
       <button
         onClick={() => navigate(-1)}
